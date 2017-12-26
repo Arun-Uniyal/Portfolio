@@ -1,0 +1,8 @@
+header{padding: 20px 0; margin-bottom: 90px;}
+.primary-menu{font-size: 22px; color: #56a5ce; border-bottom: 1px solid #ebebeb; padding-bottom: 20px;}
+.primary-menu li:not(:last-child) a::after {
+    margin: 0 30px;
+    display: inline-block;
+    content: '/';
+    color: #eee;
+}

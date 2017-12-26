@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color:#fff;
+    /* background-image: url('assets/img/bg.jpg'); */
+    background-repeat:no-repeat;
+    background-position: left top;
+    background-attachment:fixed;
+    background-size:cover;
+    
+}
+a{color: #56A5CE;}
+a:hover, a:focus, a.active{color: #ababab; text-decoration: none;}

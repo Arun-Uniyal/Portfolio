@@ -1,0 +1,72 @@
+.site-footer {
+    margin-top: 75px;
+}
+.site-footer-content {
+    padding: 40px 0 50px;
+    border-top: 1px solid #e5e5e5;  
+}
+.site-footer-left {
+    float: left;
+}
+.site-footer-social {
+    float: right;
+}
+
+.site-footer-left p, .site-footer-left a {
+    padding-top: 12px;
+    font-size: 18px;
+    color: #ababab;
+}
+.site-footer p, .site-footer li {
+    line-height: 135%;
+}
+.site-footer-copyright {
+    font-style: italic;
+}
+.site-footer-social ul {
+    display: inline-block;
+}
+.site-footer-social ul li {
+    margin: 0;
+    float: left;
+    list-style: none;
+}
+.site-footer-social ul li:not(:first-child) {
+    margin-left: 20px;
+}
+.site-footer-social li a {
+    width: 45px;
+    height: 45px;
+    margin-top: 3px;
+    padding-top: 13px; 
+    display: inline-block;
+    border-radius: 1000px;
+    background: #f5f5f5;
+    text-align: center;
+    color: #ababab;
+    -webkit-transition: all linear 0.15s,false,false,false;
+    -moz-transition: all linear 0.15s,false,false,false;
+    -ms-transition: all linear 0.15s,false,false,false;
+    -o-transition: all linear 0.15s,false,false,false;
+    transition: all linear 0.15s,false,false,false;
+}
+.site-footer-social li a {
+    text-align: center;
+    color: #ababab;
+}
+.site-footer-social li a:hover {
+    color: #fff;
+}
+.site-footer-social .twitter:hover {
+    background: #55acee;
+}
+.site-footer-social .facebook:hover {
+    background: #3b5998;
+}
+.site-footer-social .dribbble:hover {
+    background: #EA4C89;
+}
+.site-footer-social .linkedin:hover {
+    background: #0073B2;
+}
+

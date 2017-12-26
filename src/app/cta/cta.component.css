@@ -1,0 +1,46 @@
+.page-section-small {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-cta .section-title {
+    margin-bottom: 5px;
+}
+.text-faded, .post-excerpt {
+    color: #848484;
+}
+.text-large, .post-excerpt {
+    font-size: 30px;
+    line-height: 136%;
+}
+.page-cta .btn-wrap {
+    padding-top: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.btn, .btn-small, .btn-large, .btn-ghost-large, .btn-ghost {
+    padding: 17px 24px 15px;
+    display: inline-block;
+    box-shadow: 0 3px 0 #368ebb;
+    border-radius: 4px;
+    border: none;
+    background: #56a5ce;
+    -webkit-transition: all linear 0.15s,false,false,false;
+    -moz-transition: all linear 0.15s,false,false,false;
+    -ms-transition: all linear 0.15s,false,false,false;
+    -o-transition: all linear 0.15s,false,false,false;
+    transition: all linear 0.15s,false,false,false;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.btn-large, .btn-ghost-large {
+    padding: 22px 38px;
+    font-size: 26px;
+}
+.btn-wrap [class^="btn-"] {
+    float: left;
+}
